@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="images/bg-main-desktop.png" alt="Background image">
+    <div class="card-container">
+      <img src="images/bg-card-front.png" alt="Card front">
+      <div class="card-number">
+        9591 &nbsp;&nbsp;6489 &nbsp;&nbsp;1234 &nbsp;&nbsp;0000
+      </div>
+      <div class="card-holder-name">
+        <input type="text" id="cardholder-name" placeholder="Cardholder Name">
+      </div>
+    </div>
+    <div class="card-back">
+      <img src="images/bg-card-back.png" alt="Card back">
+    </div>
+  </div>
+  <div class="button-container">
+    <button onClick='redirectToPage2()' id="confirm-button">CONFIRM</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
